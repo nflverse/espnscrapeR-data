@@ -46,15 +46,15 @@ Wikipedia also has some details on [total QBR](https://en.wikipedia.org/wiki/Tot
 
 QBR is a useful metric for evaluating quarterback efficiency. It is highly correlated with EPA (Expected Points Added), although ESPN's EPA formula is not directly equivalent to `nflfastR`/`nflscrapR` EPA model.
 
-![EPA is tightly correlated with QBR](https://themockup.blog/static/slides/tidymodels_intro_files/figure-html/unnamed-chunk-8-1.png)
+<img src="https://themockup.blog/static/slides/tidymodels_intro_files/figure-html/unnamed-chunk-8-1.png" alt = "EPA is tightly correlated with QBR" width="150" height="150">
 
 This provides another useful metric for evaluating quarterbacks.
 
 Of additional interest, as highlighted by [Mike Sando](https://www.espn.com/nfl/story/_/id/22692351/nfl-how-many-wins-kirk-cousins-add-various-suitors) during his time at ESPN, QBR is roughly predictive of observed win rate. In essence, the QBR metric is very close to the observed win rate.
 
-![QBR is predictive of Win Percentage](https://themockup.blog/static/slides/images/qbr_win_plot.png)
+<img src="https://themockup.blog/static/slides/images/qbr_win_plot.png" alt = "QBR is predictive of Win Percentage" width="150" height="150">
 
-![QBR is related to Win Percentage](https://themockup.blog/static/slides/images/qbr_win_tab.png)
+<img src="https://themockup.blog/static/slides/images/qbr_win_tab.png" alt = "QBR is related to Win Percentage" width="150" height="250">
 
 ## Data Dictionary
 
