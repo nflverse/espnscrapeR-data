@@ -89,8 +89,8 @@ Of additional interest, as highlighted by [Mike Sando](https://www.espn.com/nfl/
 
 |variable      |class     |description |
 |:-------------|:---------|:-----------|
-|season        |double    |.           |
-|season_type   |character |.           |
+|season        |double    | Season year |
+|season_type   |character | Season Type (either Playoffs or Regular)|
 |game_id       |double    | ESPN Game ID |
 |game_week     |double    | Game week (1-17) |
 |week_text     |character | Week text (includes text description) |
