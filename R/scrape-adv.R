@@ -77,6 +77,10 @@ adv_stats <- function(game_id){
 
 all_data <- map(all_urls, adv_stats)
 
+
+# Defense -----------------------------------------------------------------
+
+
 def_data <- read_rds("data/adv-def-boxscore-2021.rds")
 
 bind_rows(
@@ -86,6 +90,10 @@ bind_rows(
 ) %>%
   mutate(week = game_week) %>%
   write_rds("data/adv-def-boxscore-2021.rds")
+
+
+# Passing -----------------------------------------------------------------
+
 
 pass_data <- read_rds("data/adv-pass-boxscore-2021.rds")
 
@@ -97,6 +105,9 @@ bind_rows(
   mutate(week = game_week) %>%
   write_rds("data/adv-pass-boxscore-2021.rds")
 
+# Rushing -----------------------------------------------------------------
+
+
 rush_data <- read_rds("data/adv-rush-boxscore-2021.rds")
 
 bind_rows(
@@ -107,12 +118,15 @@ bind_rows(
   mutate(week = game_week) %>%
   write_rds("data/adv-rush-boxscore-2021.rds")
 
-pass_data <- read_rds("data/adv-pass-boxscore-2021.rds")
+# Receiving ---------------------------------------------------------------
+
+
+rec_data <- read_rds("data/adv-rec-boxscore-2021.rds")
 
 bind_rows(
-  pass_data,
+  rec_data,
   all_data %>%
-    map_dfr("pass_def")
+    map_dfr("raw_rec")
 ) %>%
   mutate(week = game_week) %>%
-  write_rds("data/adv-pass-boxscore-2021.rds")
+  write_rds("data/adv-rec-boxscore-2021.rds")
