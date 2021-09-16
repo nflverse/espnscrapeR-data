@@ -1,0 +1,129 @@
+stat,stat_rank,team,win_pct,week,season
+Pass Rush Win Rate,1,New York Jets,80,1,2021
+Pass Rush Win Rate,2,Los Angeles Chargers,67,1,2021
+Pass Rush Win Rate,3,Jacksonville Jaguars,65,1,2021
+Pass Rush Win Rate,4,Tampa Bay Buccaneers,65,1,2021
+Pass Rush Win Rate,5,Philadelphia Eagles,64,1,2021
+Pass Rush Win Rate,6,Cleveland Browns,60,1,2021
+Pass Rush Win Rate,6,Los Angeles Rams,60,1,2021
+Pass Rush Win Rate,8,Pittsburgh Steelers,60,1,2021
+Pass Rush Win Rate,9,Miami Dolphins,56,1,2021
+Pass Rush Win Rate,10,Seattle Seahawks,53,1,2021
+Pass Rush Win Rate,11,San Francisco 49ers,52,1,2021
+Pass Rush Win Rate,12,Buffalo Bills,50,1,2021
+Pass Rush Win Rate,12,Tennessee Titans,50,1,2021
+Pass Rush Win Rate,12,Las Vegas Raiders,50,1,2021
+Pass Rush Win Rate,12,Carolina Panthers,50,1,2021
+Pass Rush Win Rate,16,Baltimore Ravens,49,1,2021
+Pass Rush Win Rate,17,Washington Football Team,49,1,2021
+Pass Rush Win Rate,18,Arizona Cardinals,47,1,2021
+Pass Rush Win Rate,19,Indianapolis Colts,46,1,2021
+Pass Rush Win Rate,20,New England Patriots,45,1,2021
+Pass Rush Win Rate,21,Dallas Cowboys,45,1,2021
+Pass Rush Win Rate,22,Chicago Bears,44,1,2021
+Pass Rush Win Rate,23,Houston Texans,42,1,2021
+Pass Rush Win Rate,24,Green Bay Packers,41,1,2021
+Pass Rush Win Rate,24,New York Giants,41,1,2021
+Pass Rush Win Rate,24,Cincinnati Bengals,41,1,2021
+Pass Rush Win Rate,27,Minnesota Vikings,38,1,2021
+Pass Rush Win Rate,28,New Orleans Saints,33,1,2021
+Pass Rush Win Rate,28,Denver Broncos,33,1,2021
+Pass Rush Win Rate,30,Detroit Lions,31,1,2021
+Pass Rush Win Rate,31,Atlanta Falcons,25,1,2021
+Pass Rush Win Rate,32,Kansas City Chiefs,22,1,2021
+Run Stop Win Rate,1,Las Vegas Raiders,39,1,2021
+Run Stop Win Rate,2,Buffalo Bills,39,1,2021
+Run Stop Win Rate,3,Washington Football Team,38,1,2021
+Run Stop Win Rate,4,Carolina Panthers,38,1,2021
+Run Stop Win Rate,5,Baltimore Ravens,35,1,2021
+Run Stop Win Rate,6,New York Giants,35,1,2021
+Run Stop Win Rate,7,Green Bay Packers,35,1,2021
+Run Stop Win Rate,8,Miami Dolphins,34,1,2021
+Run Stop Win Rate,9,Denver Broncos,34,1,2021
+Run Stop Win Rate,10,New York Jets,33,1,2021
+Run Stop Win Rate,11,Houston Texans,32,1,2021
+Run Stop Win Rate,12,Pittsburgh Steelers,32,1,2021
+Run Stop Win Rate,13,Cincinnati Bengals,31,1,2021
+Run Stop Win Rate,14,New Orleans Saints,31,1,2021
+Run Stop Win Rate,15,Arizona Cardinals,31,1,2021
+Run Stop Win Rate,16,Indianapolis Colts,30,1,2021
+Run Stop Win Rate,17,Dallas Cowboys,30,1,2021
+Run Stop Win Rate,18,Jacksonville Jaguars,30,1,2021
+Run Stop Win Rate,19,Philadelphia Eagles,30,1,2021
+Run Stop Win Rate,20,San Francisco 49ers,30,1,2021
+Run Stop Win Rate,21,Detroit Lions,30,1,2021
+Run Stop Win Rate,22,Seattle Seahawks,29,1,2021
+Run Stop Win Rate,23,Cleveland Browns,29,1,2021
+Run Stop Win Rate,24,Los Angeles Rams,29,1,2021
+Run Stop Win Rate,25,Tennessee Titans,29,1,2021
+Run Stop Win Rate,26,Tampa Bay Buccaneers,27,1,2021
+Run Stop Win Rate,27,Chicago Bears,27,1,2021
+Run Stop Win Rate,28,Los Angeles Chargers,25,1,2021
+Run Stop Win Rate,29,Atlanta Falcons,25,1,2021
+Run Stop Win Rate,30,New England Patriots,24,1,2021
+Run Stop Win Rate,31,Minnesota Vikings,22,1,2021
+Run Stop Win Rate,32,Kansas City Chiefs,22,1,2021
+Pass Block Win Rate,1,Cleveland Browns,78,1,2021
+Pass Block Win Rate,2,Philadelphia Eagles,75,1,2021
+Pass Block Win Rate,3,San Francisco 49ers,69,1,2021
+Pass Block Win Rate,4,Green Bay Packers,67,1,2021
+Pass Block Win Rate,4,New York Giants,67,1,2021
+Pass Block Win Rate,6,Cincinnati Bengals,62,1,2021
+Pass Block Win Rate,7,New Orleans Saints,59,1,2021
+Pass Block Win Rate,7,Denver Broncos,59,1,2021
+Pass Block Win Rate,7,Minnesota Vikings,59,1,2021
+Pass Block Win Rate,10,Jacksonville Jaguars,58,1,2021
+Pass Block Win Rate,11,Los Angeles Rams,56,1,2021
+Pass Block Win Rate,12,Tampa Bay Buccaneers,55,1,2021
+Pass Block Win Rate,13,Miami Dolphins,55,1,2021
+Pass Block Win Rate,14,Seattle Seahawks,54,1,2021
+Pass Block Win Rate,15,Tennessee Titans,53,1,2021
+Pass Block Win Rate,16,Los Angeles Chargers,52,1,2021
+Pass Block Win Rate,17,Las Vegas Raiders,51,1,2021
+Pass Block Win Rate,18,Baltimore Ravens,50,1,2021
+Pass Block Win Rate,18,Pittsburgh Steelers,50,1,2021
+Pass Block Win Rate,18,Arizona Cardinals,50,1,2021
+Pass Block Win Rate,18,New York Jets,50,1,2021
+Pass Block Win Rate,22,Detroit Lions,48,1,2021
+Pass Block Win Rate,23,Indianapolis Colts,47,1,2021
+Pass Block Win Rate,24,New England Patriots,44,1,2021
+Pass Block Win Rate,25,Buffalo Bills,41,1,2021
+Pass Block Win Rate,26,Kansas City Chiefs,40,1,2021
+Pass Block Win Rate,26,Chicago Bears,40,1,2021
+Pass Block Win Rate,28,Atlanta Falcons,36,1,2021
+Pass Block Win Rate,29,Dallas Cowboys,35,1,2021
+Pass Block Win Rate,30,Houston Texans,35,1,2021
+Pass Block Win Rate,31,Washington Football Team,33,1,2021
+Pass Block Win Rate,32,Carolina Panthers,20,1,2021
+Run Block Win Rate,1,Washington Football Team,80,1,2021
+Run Block Win Rate,2,Cleveland Browns,78,1,2021
+Run Block Win Rate,3,Cincinnati Bengals,77,1,2021
+Run Block Win Rate,4,Miami Dolphins,77,1,2021
+Run Block Win Rate,5,Philadelphia Eagles,76,1,2021
+Run Block Win Rate,6,Dallas Cowboys,74,1,2021
+Run Block Win Rate,7,Seattle Seahawks,73,1,2021
+Run Block Win Rate,8,Los Angeles Rams,73,1,2021
+Run Block Win Rate,9,Chicago Bears,72,1,2021
+Run Block Win Rate,10,Tampa Bay Buccaneers,71,1,2021
+Run Block Win Rate,11,Arizona Cardinals,71,1,2021
+Run Block Win Rate,12,Detroit Lions,71,1,2021
+Run Block Win Rate,13,Indianapolis Colts,71,1,2021
+Run Block Win Rate,14,San Francisco 49ers,70,1,2021
+Run Block Win Rate,15,Houston Texans,70,1,2021
+Run Block Win Rate,16,Minnesota Vikings,70,1,2021
+Run Block Win Rate,17,Atlanta Falcons,70,1,2021
+Run Block Win Rate,18,Kansas City Chiefs,69,1,2021
+Run Block Win Rate,19,Tennessee Titans,69,1,2021
+Run Block Win Rate,20,Green Bay Packers,69,1,2021
+Run Block Win Rate,21,Buffalo Bills,68,1,2021
+Run Block Win Rate,22,New Orleans Saints,66,1,2021
+Run Block Win Rate,23,Jacksonville Jaguars,66,1,2021
+Run Block Win Rate,24,Baltimore Ravens,65,1,2021
+Run Block Win Rate,25,New England Patriots,65,1,2021
+Run Block Win Rate,26,Las Vegas Raiders,65,1,2021
+Run Block Win Rate,27,Carolina Panthers,64,1,2021
+Run Block Win Rate,28,Denver Broncos,64,1,2021
+Run Block Win Rate,29,Pittsburgh Steelers,64,1,2021
+Run Block Win Rate,30,New York Jets,63,1,2021
+Run Block Win Rate,31,Los Angeles Chargers,63,1,2021
+Run Block Win Rate,32,New York Giants,62,1,2021
