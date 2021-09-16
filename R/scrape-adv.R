@@ -1,10 +1,13 @@
-library(dplyr)
-library(stringr)
-library(tidyr)
-library(glue)
-library(rvest)
-library(janitor)
-library(readr)
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(dplyr)
+  library(stringr)
+  library(tidyr)
+  library(glue)
+  library(rvest)
+  library(janitor)
+  library(readr)
+})
 
 get_game_ids <- function(){
   raw_url_adv <- glue::glue("https://www.pro-football-reference.com/boxscores/")

@@ -1,6 +1,8 @@
-library(tidyverse)
-library(glue)
-library(espnscrapeR)
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(glue)
+  library(espnscrapeR)
+})
 
 # Schedule -------------------------------------------------------------
 
