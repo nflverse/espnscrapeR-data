@@ -31,3 +31,4 @@ jobs:
           git pull
           git add data
           git commit -m "Automated Adv stats updates `date`" || echo "No changes to commit"
+          git push || echo "No changes to commit"
