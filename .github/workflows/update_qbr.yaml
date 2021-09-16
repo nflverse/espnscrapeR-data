@@ -40,7 +40,6 @@ jobs:
           git pull
           git add data
           git commit -m "Automated FPI data updates `date`" || echo "No changes to commit"
-          git push || echo "No changes to commit"
 
       - name: Update WinRate
         run: Rscript -e 'source("R/scrape-winrate.R")'
