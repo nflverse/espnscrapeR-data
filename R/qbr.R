@@ -24,7 +24,7 @@ current_week
 raw_data_season <- read_rds("data/qbr-nfl-season.rds")
 raw_data_week <- readRDS("data/qbr-nfl-weekly.rds")
 
-raw_qbr <- espnscrapeR::get_nfl_qbr(season = 2021, week = current_week)
+raw_qbr <- espnscrapeR::get_nfl_qbr(season = 2021, week = current_week - 1)
 raw_qbr_season <- espnscrapeR::get_nfl_qbr(season = 2021)
 
 comb_season_qbr <- raw_data_season %>%

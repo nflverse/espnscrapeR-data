@@ -30,11 +30,11 @@ all_proj <- read_csv("data/proj-weekly-2021.csv")
 all_eff <- read_csv("data/fpi-eff-weekly-2021.csv")
 
 raw_fpi <- espnscrapeR::scrape_fpi(season = 2021) %>%
-  mutate(week = current_week, .after = season)
+  mutate(week = current_week - 1, .after = season)
 raw_eff <- espnscrapeR::scrape_fpi(season = 2021, stat = "EFF") %>%
-  mutate(week = current_week, .after = season)
+  mutate(week = current_week - 1, .after = season)
 raw_proj <- espnscrapeR::scrape_fpi(season = 2021, stat = "PROJ") %>%
-  mutate(week = current_week, .after = season)
+  mutate(week = current_week - 1, .after = season)
 
 all_proj %>%
   bind_rows(raw_proj) %>%
