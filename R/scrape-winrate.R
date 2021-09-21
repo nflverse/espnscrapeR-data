@@ -22,6 +22,12 @@ cur_season <- raw_sched %>%
   distinct(season) %>%
   pull()
 
-espnscrapeR::scrape_espn_win_rate(season = cur_season) %>%
-  mutate(week = current_week - 1) %>%
-  write_csv("data/weekly-winrate.csv")
+raw_winrate <- read_csv("data/weekly-winrate-2021.csv")
+
+combo_wr <- raw_winrate %>%
+  bind_rows(
+    espnscrapeR::scrape_espn_win_rate(season = cur_season) %>%
+      mutate(week = current_week - 1)
+  )
+
+write_csv(combo_wr, "data/weekly-winrate-2021.csv")
