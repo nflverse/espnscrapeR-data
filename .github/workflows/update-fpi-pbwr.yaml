@@ -4,7 +4,7 @@ on:
     - cron:  '0 11 * 1,2,9-12 2'
   workflow_dispatch:
 
-name: Update QBR, FPI, and Win Rate Stats
+name: Update FPI and Win Rate Stats
 
 jobs:
   update:
@@ -21,8 +21,8 @@ jobs:
           pak::pak(c("jthomasmock/espnscrapeR"), dependencies = TRUE)
         shell: Rscript {0}
 
-      - name: Update QBR
-        run: Rscript -e 'source("R/qbr.R")'
+      - name: Update FPI
+        run: Rscript -e 'source("R/scrape-fpi.R")'
 
       - name: Commit updated data
         run: |
@@ -30,5 +30,14 @@ jobs:
           git config --local user.name "GitHub Actions"
           git pull
           git add data
-          git commit -m "Automated QBR stats updates `date`" || echo "No changes to commit"
+          git commit -m "Automated FPI data updates `date`" || echo "No changes to commit"
 
+      - name: Update WinRate
+        run: Rscript -e 'source("R/scrape-winrate.R")'
+
+      - name: Commit updated data
+        run: |
+          git pull
+          git add data
+          git commit -m "Automated ESPN WinRate data updates `date`" || echo "No changes to commit"
+          git push || echo "No changes to commit"
