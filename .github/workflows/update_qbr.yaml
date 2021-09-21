@@ -4,7 +4,7 @@ on:
     - cron:  '0 11 * 1,2,9-12 2'
   workflow_dispatch:
 
-name: Update QBR, FPI, and Win Rate Stats
+name: Update QBR Stats
 
 jobs:
   update:
