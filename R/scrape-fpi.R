@@ -22,10 +22,6 @@ current_week <- raw_sched %>%
 
 current_week
 
-cat(current_week - 1)
-cat(Sys.Date())
-
-
 # FPI ---------------------------------------------------------------------
 
 all_fpi <- read_csv("data/fpi-weekly-2021.csv")
@@ -42,20 +38,14 @@ raw_proj <- espnscrapeR::scrape_fpi(season = 2021, stat = "PROJ") %>%
 out_proj <- all_proj %>%
   bind_rows(raw_proj)
 
-cat(glimpse(out_proj))
-
-write_csv(output_proj, "data/proj-weekly-2021.csv")
+write_csv(out_proj, "data/proj-weekly-2021.csv")
 
 out_fpi <- all_fpi %>%
   bind_rows(raw_fpi)
-
-cat(glimpse(out_fpi))
 
 write_csv(out_fpi, "data/fpi-weekly-2021.csv")
 
 out_eff <- all_eff %>%
   bind_rows(raw_eff)
-
-cat(glimpse(out_eff))
 
 write_csv(out_eff, "data/fpi-eff-weekly-2021.csv")
