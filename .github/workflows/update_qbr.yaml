@@ -31,4 +31,4 @@ jobs:
           git pull
           git add data
           git commit -m "Automated QBR stats updates `date`" || echo "No changes to commit"
-
+          git push || echo "No changes to commit"
