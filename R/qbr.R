@@ -24,11 +24,11 @@ current_week
 raw_data_season <- read_rds("data/qbr-nfl-season.rds")
 raw_data_week <- readRDS("data/qbr-nfl-weekly.rds")
 
-raw_qbr <- espnscrapeR::get_nfl_qbr(season = 2021, week = current_week - 1)
-raw_qbr_season <- espnscrapeR::get_nfl_qbr(season = 2021)
+raw_qbr <- espnscrapeR::get_nfl_qbr(season = 2022, week = current_week - 1)
+raw_qbr_season <- espnscrapeR::get_nfl_qbr(season = 2022)
 
 comb_season_qbr <- raw_data_season %>%
-  filter(season != 2021) %>%
+  filter(season != 2022) %>%
   bind_rows(raw_qbr_season)
 
 comb_weekly_qbr <- raw_data_week %>%
@@ -46,15 +46,15 @@ comb_season_qbr %>% write_csv("data/qbr-nfl-season.csv")
 raw_college_season <- read_rds("data/qbr-college-season.rds")
 raw_college_week <- readRDS("data/qbr-college-season.rds")
 
-qbr_coll_season <- get_college_qbr(season = 2021, type = "season")
-qbr_coll_week <- get_college_qbr(season = 2021, type = "weekly")
+qbr_coll_season <- get_college_qbr(season = 2022, type = "season")
+qbr_coll_week <- get_college_qbr(season = 2022, type = "weekly")
 
 comb_coll_season <- raw_college_season %>%
-  filter(season != 2021) %>%
+  filter(season != 2022) %>%
   bind_rows(qbr_coll_season)
 
 comb_coll_week <- raw_college_week %>%
-  filter(season != 2021) %>%
+  filter(season != 2022) %>%
   bind_rows(qbr_coll_week)
 
 comb_coll_week %>% write_rds("data/qbr-college-weekly.rds")
@@ -62,4 +62,5 @@ comb_coll_week %>% write_csv("data/qbr-college-weekly.csv")
 
 comb_coll_season %>% write_rds("data/qbr-college-season.rds")
 comb_coll_season %>% write_csv("data/qbr-college-season.csv")
+
 
