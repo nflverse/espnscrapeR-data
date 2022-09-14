@@ -575,3 +575,35 @@ season,week,team,w_l_t,proj_w_l,playoff_pct,win_div_pct,make_div_pct,make_conf_p
 2021,21,Houston Texans,4-13-0,4.0-13.0,0,0,0,0,0,0
 2021,21,Detroit Lions,3-13-1,3.0-13.0,0,0,0,0,0,0
 2021,21,Jacksonville Jaguars,3-14-0,3.0-14.0,0,0,0,0,0,0
+2021,1,Green Bay Packers,13-5-0,13.0-4.0,100,100,100,0,0,0
+2021,1,Tampa Bay Buccaneers,14-5-0,13.0-4.0,100,100,100,0,0,0
+2021,1,Dallas Cowboys,12-6-0,12.0-5.0,100,100,0,0,0,0
+2021,1,Tennessee Titans,12-6-0,12.0-5.0,100,100,100,0,0,0
+2021,1,Kansas City Chiefs,14-6-0,12.0-5.0,100,100,100,100,0,0
+2021,1,Los Angeles Rams,16-5-0,12.0-5.0,100,100,100,100,100,100
+2021,1,Buffalo Bills,12-7-0,11.0-6.0,100,100,100,0,0,0
+2021,1,Arizona Cardinals,11-7-0,11.0-6.0,100,0,0,0,0,0
+2021,1,Cincinnati Bengals,13-8-0,10.0-7.0,100,100,100,100,100,0
+2021,1,Las Vegas Raiders,10-8-0,10.0-7.0,100,0,0,0,0,0
+2021,1,New England Patriots,10-8-0,10.0-7.0,100,0,0,0,0,0
+2021,1,San Francisco 49ers,12-8-0,10.0-7.0,100,0,100,100,0,0
+2021,1,Indianapolis Colts,9-8-0,9.0-8.0,0,0,0,0,0,0
+2021,1,Miami Dolphins,9-8-0,9.0-8.0,0,0,0,0,0,0
+2021,1,New Orleans Saints,9-8-0,9.0-8.0,0,0,0,0,0,0
+2021,1,Philadelphia Eagles,9-9-0,9.0-8.0,100,0,0,0,0,0
+2021,1,Pittsburgh Steelers,9-8-1,9.0-7.0,100,0,0,0,0,0
+2021,1,Los Angeles Chargers,9-8-0,9.0-8.0,0,0,0,0,0,0
+2021,1,Cleveland Browns,8-9-0,8.0-9.0,0,0,0,0,0,0
+2021,1,Minnesota Vikings,8-9-0,8.0-9.0,0,0,0,0,0,0
+2021,1,Baltimore Ravens,8-9-0,8.0-9.0,0,0,0,0,0,0
+2021,1,Atlanta Falcons,7-10-0,7.0-10.0,0,0,0,0,0,0
+2021,1,Denver Broncos,7-10-0,7.0-10.0,0,0,0,0,0,0
+2021,1,Seattle Seahawks,7-10-0,7.0-10.0,0,0,0,0,0,0
+2021,1,Washington,7-10-0,7.0-10.0,0,0,0,0,0,0
+2021,1,Chicago Bears,6-11-0,6.0-11.0,0,0,0,0,0,0
+2021,1,Carolina Panthers,5-12-0,5.0-12.0,0,0,0,0,0,0
+2021,1,New York Giants,4-13-0,4.0-13.0,0,0,0,0,0,0
+2021,1,New York Jets,4-13-0,4.0-13.0,0,0,0,0,0,0
+2021,1,Houston Texans,4-13-0,4.0-13.0,0,0,0,0,0,0
+2021,1,Detroit Lions,3-13-1,3.0-13.0,0,0,0,0,0,0
+2021,1,Jacksonville Jaguars,3-14-0,3.0-14.0,0,0,0,0,0,0
