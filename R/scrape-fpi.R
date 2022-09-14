@@ -24,28 +24,28 @@ current_week
 
 # FPI ---------------------------------------------------------------------
 
-all_fpi <- read_csv("data/fpi-weekly-2021.csv")
-all_proj <- read_csv("data/proj-weekly-2021.csv")
-all_eff <- read_csv("data/fpi-eff-weekly-2021.csv")
+all_fpi <- read_csv("data/fpi-weekly-2022.csv")
+all_proj <- read_csv("data/proj-weekly-2022.csv")
+all_eff <- read_csv("data/fpi-eff-weekly-2022.csv")
 
-raw_fpi <- espnscrapeR::scrape_fpi(season = 2021) %>%
+raw_fpi <- espnscrapeR::scrape_fpi(season = 2022) %>%
   mutate(week = current_week - 1, .after = season)
-raw_eff <- espnscrapeR::scrape_fpi(season = 2021, stat = "EFF") %>%
+raw_eff <- espnscrapeR::scrape_fpi(season = 2022, stat = "EFF") %>%
   mutate(week = current_week - 1, .after = season)
-raw_proj <- espnscrapeR::scrape_fpi(season = 2021, stat = "PROJ") %>%
+raw_proj <- espnscrapeR::scrape_fpi(season = 2022, stat = "PROJ") %>%
   mutate(week = current_week - 1, .after = season)
 
 out_proj <- all_proj %>%
   bind_rows(raw_proj)
 
-write_csv(out_proj, "data/proj-weekly-2021.csv")
+write_csv(out_proj, "data/proj-weekly-2022.csv")
 
 out_fpi <- all_fpi %>%
   bind_rows(raw_fpi)
 
-write_csv(out_fpi, "data/fpi-weekly-2021.csv")
+write_csv(out_fpi, "data/fpi-weekly-2022.csv")
 
 out_eff <- all_eff %>%
   bind_rows(raw_eff)
 
-write_csv(out_eff, "data/fpi-eff-weekly-2021.csv")
+write_csv(out_eff, "data/fpi-eff-weekly-2022.csv")

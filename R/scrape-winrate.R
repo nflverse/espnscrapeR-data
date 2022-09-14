@@ -22,7 +22,7 @@ cur_season <- raw_sched %>%
   distinct(season) %>%
   pull()
 
-raw_winrate <- read_csv("data/weekly-winrate-2021.csv")
+raw_winrate <- read_csv("data/weekly-winrate-2022.csv")
 
 combo_wr <- raw_winrate %>%
   bind_rows(
@@ -30,4 +30,4 @@ combo_wr <- raw_winrate %>%
       mutate(week = current_week - 1)
   )
 
-write_csv(combo_wr, "data/weekly-winrate-2021.csv")
+write_csv(combo_wr, "data/weekly-winrate-2022.csv")
