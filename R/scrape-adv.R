@@ -60,6 +60,10 @@ adv_stats <- function(game_id){
       str_remove("/players/[A-Z]/") %>%
       str_remove(".htm")
 
+    if(game_id == "202209110htx" && adv_stat == "defense"){
+      raw_players <- c(NA, raw_players)
+    }
+
     suppressMessages(
       raw_table %>%
         mutate(player_id = raw_players, .after = player) %>%
@@ -84,7 +88,7 @@ all_data <- map(all_urls, adv_stats)
 # Defense -----------------------------------------------------------------
 
 
-def_data <- read_rds("data/adv-def-boxscore-2021.rds")
+def_data <- read_rds("data/adv-def-boxscore-2022.rds")
 
 bind_rows(
   def_data,
@@ -92,13 +96,13 @@ bind_rows(
     map_dfr("raw_def")
 ) %>%
   mutate(week = game_week) %>%
-  write_rds("data/adv-def-boxscore-2021.rds")
+  write_rds("data/adv-def-boxscore-2022.rds")
 
 
 # Passing -----------------------------------------------------------------
 
 
-pass_data <- read_rds("data/adv-pass-boxscore-2021.rds")
+pass_data <- read_rds("data/adv-pass-boxscore-2022.rds")
 
 bind_rows(
   pass_data,
@@ -106,12 +110,12 @@ bind_rows(
     map_dfr("raw_pass")
 ) %>%
   mutate(week = game_week) %>%
-  write_rds("data/adv-pass-boxscore-2021.rds")
+  write_rds("data/adv-pass-boxscore-2022.rds")
 
 # Rushing -----------------------------------------------------------------
 
 
-rush_data <- read_rds("data/adv-rush-boxscore-2021.rds")
+rush_data <- read_rds("data/adv-rush-boxscore-2022.rds")
 
 bind_rows(
   rush_data,
@@ -119,12 +123,12 @@ bind_rows(
     map_dfr("raw_rush")
 ) %>%
   mutate(week = game_week) %>%
-  write_rds("data/adv-rush-boxscore-2021.rds")
+  write_rds("data/adv-rush-boxscore-2022.rds")
 
 # Receiving ---------------------------------------------------------------
 
 
-rec_data <- read_rds("data/adv-rec-boxscore-2021.rds")
+rec_data <- read_rds("data/adv-rec-boxscore-2022.rds")
 
 bind_rows(
   rec_data,
@@ -132,4 +136,4 @@ bind_rows(
     map_dfr("raw_rec")
 ) %>%
   mutate(week = game_week) %>%
-  write_rds("data/adv-rec-boxscore-2021.rds")
+  write_rds("data/adv-rec-boxscore-2022.rds")
