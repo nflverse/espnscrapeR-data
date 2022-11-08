@@ -1151,3 +1151,131 @@ Run Block Win Rate,29,New England Patriots,68,"Oct 25, 2022",2022,8
 Run Block Win Rate,30,Washington Commanders,68,"Oct 25, 2022",2022,8
 Run Block Win Rate,31,Seattle Seahawks,68,"Oct 25, 2022",2022,8
 Run Block Win Rate,32,Los Angeles Chargers,66,"Oct 25, 2022",2022,8
+Pass Rush Win Rate,1,Dallas Cowboys,53,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,2,Denver Broncos,51,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,3,Los Angeles Rams,51,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,4,Jacksonville Jaguars,51,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,5,Philadelphia Eagles,51,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,6,Arizona Cardinals,50,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,7,Green Bay Packers,49,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,8,Miami Dolphins,49,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,9,New York Jets,46,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,10,San Francisco 49ers,45,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,11,Kansas City Chiefs,44,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,12,Chicago Bears,44,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,13,Tennessee Titans,43,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,14,Houston Texans,43,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,15,Las Vegas Raiders,43,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,16,Cleveland Browns,41,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,17,Cincinnati Bengals,41,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,18,Atlanta Falcons,41,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,19,Baltimore Ravens,41,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,20,Carolina Panthers,40,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,21,Washington Commanders,40,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,22,New York Giants,40,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,23,Buffalo Bills,40,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,24,Tampa Bay Buccaneers,40,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,25,Minnesota Vikings,39,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,26,Seattle Seahawks,38,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,27,Pittsburgh Steelers,36,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,28,Indianapolis Colts,36,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,29,Los Angeles Chargers,36,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,30,New England Patriots,34,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,31,New Orleans Saints,31,"Nov 1, 2022",2022,9
+Pass Rush Win Rate,32,Detroit Lions,30,"Nov 1, 2022",2022,9
+Run Stop Win Rate,1,Tennessee Titans,38,"Nov 1, 2022",2022,9
+Run Stop Win Rate,2,Los Angeles Rams,35,"Nov 1, 2022",2022,9
+Run Stop Win Rate,3,Carolina Panthers,34,"Nov 1, 2022",2022,9
+Run Stop Win Rate,4,Denver Broncos,34,"Nov 1, 2022",2022,9
+Run Stop Win Rate,5,San Francisco 49ers,33,"Nov 1, 2022",2022,9
+Run Stop Win Rate,6,Miami Dolphins,33,"Nov 1, 2022",2022,9
+Run Stop Win Rate,7,New York Jets,32,"Nov 1, 2022",2022,9
+Run Stop Win Rate,8,Chicago Bears,32,"Nov 1, 2022",2022,9
+Run Stop Win Rate,9,Los Angeles Chargers,32,"Nov 1, 2022",2022,9
+Run Stop Win Rate,10,Minnesota Vikings,32,"Nov 1, 2022",2022,9
+Run Stop Win Rate,11,Buffalo Bills,31,"Nov 1, 2022",2022,9
+Run Stop Win Rate,12,Indianapolis Colts,31,"Nov 1, 2022",2022,9
+Run Stop Win Rate,13,Jacksonville Jaguars,31,"Nov 1, 2022",2022,9
+Run Stop Win Rate,14,Cleveland Browns,31,"Nov 1, 2022",2022,9
+Run Stop Win Rate,15,Washington Commanders,31,"Nov 1, 2022",2022,9
+Run Stop Win Rate,16,New Orleans Saints,30,"Nov 1, 2022",2022,9
+Run Stop Win Rate,17,Philadelphia Eagles,30,"Nov 1, 2022",2022,9
+Run Stop Win Rate,18,Seattle Seahawks,30,"Nov 1, 2022",2022,9
+Run Stop Win Rate,19,Baltimore Ravens,30,"Nov 1, 2022",2022,9
+Run Stop Win Rate,20,Tampa Bay Buccaneers,30,"Nov 1, 2022",2022,9
+Run Stop Win Rate,21,New England Patriots,29,"Nov 1, 2022",2022,9
+Run Stop Win Rate,22,Detroit Lions,29,"Nov 1, 2022",2022,9
+Run Stop Win Rate,23,Atlanta Falcons,29,"Nov 1, 2022",2022,9
+Run Stop Win Rate,24,Houston Texans,29,"Nov 1, 2022",2022,9
+Run Stop Win Rate,25,Las Vegas Raiders,29,"Nov 1, 2022",2022,9
+Run Stop Win Rate,26,Green Bay Packers,29,"Nov 1, 2022",2022,9
+Run Stop Win Rate,27,Arizona Cardinals,29,"Nov 1, 2022",2022,9
+Run Stop Win Rate,28,Pittsburgh Steelers,28,"Nov 1, 2022",2022,9
+Run Stop Win Rate,29,Dallas Cowboys,28,"Nov 1, 2022",2022,9
+Run Stop Win Rate,30,New York Giants,27,"Nov 1, 2022",2022,9
+Run Stop Win Rate,31,Cincinnati Bengals,27,"Nov 1, 2022",2022,9
+Run Stop Win Rate,32,Kansas City Chiefs,26,"Nov 1, 2022",2022,9
+Pass Block Win Rate,1,Cleveland Browns,72,"Nov 1, 2022",2022,9
+Pass Block Win Rate,2,Baltimore Ravens,70,"Nov 1, 2022",2022,9
+Pass Block Win Rate,3,Chicago Bears,67,"Nov 1, 2022",2022,9
+Pass Block Win Rate,4,Kansas City Chiefs,67,"Nov 1, 2022",2022,9
+Pass Block Win Rate,5,Seattle Seahawks,65,"Nov 1, 2022",2022,9
+Pass Block Win Rate,6,Philadelphia Eagles,63,"Nov 1, 2022",2022,9
+Pass Block Win Rate,7,New Orleans Saints,62,"Nov 1, 2022",2022,9
+Pass Block Win Rate,8,Arizona Cardinals,62,"Nov 1, 2022",2022,9
+Pass Block Win Rate,9,Denver Broncos,61,"Nov 1, 2022",2022,9
+Pass Block Win Rate,10,Pittsburgh Steelers,61,"Nov 1, 2022",2022,9
+Pass Block Win Rate,11,Green Bay Packers,60,"Nov 1, 2022",2022,9
+Pass Block Win Rate,12,Atlanta Falcons,60,"Nov 1, 2022",2022,9
+Pass Block Win Rate,13,Buffalo Bills,60,"Nov 1, 2022",2022,9
+Pass Block Win Rate,14,Carolina Panthers,60,"Nov 1, 2022",2022,9
+Pass Block Win Rate,15,Minnesota Vikings,59,"Nov 1, 2022",2022,9
+Pass Block Win Rate,16,Las Vegas Raiders,59,"Nov 1, 2022",2022,9
+Pass Block Win Rate,17,Houston Texans,58,"Nov 1, 2022",2022,9
+Pass Block Win Rate,18,New York Giants,58,"Nov 1, 2022",2022,9
+Pass Block Win Rate,19,New York Jets,57,"Nov 1, 2022",2022,9
+Pass Block Win Rate,20,New England Patriots,56,"Nov 1, 2022",2022,9
+Pass Block Win Rate,21,Los Angeles Chargers,56,"Nov 1, 2022",2022,9
+Pass Block Win Rate,22,Detroit Lions,55,"Nov 1, 2022",2022,9
+Pass Block Win Rate,23,San Francisco 49ers,55,"Nov 1, 2022",2022,9
+Pass Block Win Rate,24,Miami Dolphins,55,"Nov 1, 2022",2022,9
+Pass Block Win Rate,25,Los Angeles Rams,54,"Nov 1, 2022",2022,9
+Pass Block Win Rate,26,Tampa Bay Buccaneers,54,"Nov 1, 2022",2022,9
+Pass Block Win Rate,27,Tennessee Titans,52,"Nov 1, 2022",2022,9
+Pass Block Win Rate,28,Jacksonville Jaguars,50,"Nov 1, 2022",2022,9
+Pass Block Win Rate,29,Washington Commanders,48,"Nov 1, 2022",2022,9
+Pass Block Win Rate,30,Cincinnati Bengals,48,"Nov 1, 2022",2022,9
+Pass Block Win Rate,31,Indianapolis Colts,48,"Nov 1, 2022",2022,9
+Pass Block Win Rate,32,Dallas Cowboys,44,"Nov 1, 2022",2022,9
+Run Block Win Rate,1,Kansas City Chiefs,75,"Nov 1, 2022",2022,9
+Run Block Win Rate,2,Baltimore Ravens,75,"Nov 1, 2022",2022,9
+Run Block Win Rate,3,Las Vegas Raiders,75,"Nov 1, 2022",2022,9
+Run Block Win Rate,4,Denver Broncos,75,"Nov 1, 2022",2022,9
+Run Block Win Rate,5,Philadelphia Eagles,75,"Nov 1, 2022",2022,9
+Run Block Win Rate,6,Dallas Cowboys,74,"Nov 1, 2022",2022,9
+Run Block Win Rate,7,Minnesota Vikings,73,"Nov 1, 2022",2022,9
+Run Block Win Rate,8,Cincinnati Bengals,73,"Nov 1, 2022",2022,9
+Run Block Win Rate,9,New York Jets,73,"Nov 1, 2022",2022,9
+Run Block Win Rate,10,New Orleans Saints,73,"Nov 1, 2022",2022,9
+Run Block Win Rate,11,Arizona Cardinals,73,"Nov 1, 2022",2022,9
+Run Block Win Rate,12,Chicago Bears,73,"Nov 1, 2022",2022,9
+Run Block Win Rate,13,Detroit Lions,72,"Nov 1, 2022",2022,9
+Run Block Win Rate,14,Cleveland Browns,72,"Nov 1, 2022",2022,9
+Run Block Win Rate,15,Carolina Panthers,72,"Nov 1, 2022",2022,9
+Run Block Win Rate,16,Tennessee Titans,72,"Nov 1, 2022",2022,9
+Run Block Win Rate,17,Miami Dolphins,71,"Nov 1, 2022",2022,9
+Run Block Win Rate,18,New York Giants,71,"Nov 1, 2022",2022,9
+Run Block Win Rate,19,Tampa Bay Buccaneers,71,"Nov 1, 2022",2022,9
+Run Block Win Rate,20,San Francisco 49ers,71,"Nov 1, 2022",2022,9
+Run Block Win Rate,21,Green Bay Packers,71,"Nov 1, 2022",2022,9
+Run Block Win Rate,22,Jacksonville Jaguars,71,"Nov 1, 2022",2022,9
+Run Block Win Rate,23,Indianapolis Colts,70,"Nov 1, 2022",2022,9
+Run Block Win Rate,24,Buffalo Bills,70,"Nov 1, 2022",2022,9
+Run Block Win Rate,25,Houston Texans,69,"Nov 1, 2022",2022,9
+Run Block Win Rate,26,Pittsburgh Steelers,69,"Nov 1, 2022",2022,9
+Run Block Win Rate,27,Atlanta Falcons,69,"Nov 1, 2022",2022,9
+Run Block Win Rate,28,Washington Commanders,69,"Nov 1, 2022",2022,9
+Run Block Win Rate,29,Seattle Seahawks,68,"Nov 1, 2022",2022,9
+Run Block Win Rate,30,Los Angeles Rams,68,"Nov 1, 2022",2022,9
+Run Block Win Rate,31,New England Patriots,68,"Nov 1, 2022",2022,9
+Run Block Win Rate,32,Los Angeles Chargers,66,"Nov 1, 2022",2022,9
