@@ -25,9 +25,9 @@ jobs:
             nflverse/nflverse-data
             nflverse/nflreadr
             ropensci/piggyback
-            any::purrr
-            any::tidyr
-            any::tibble
+            purrr
+            tidyr
+            tibble
 
       - name: Update QBR
         run: Rscript -e 'source("auto/update_qbr.R")'
