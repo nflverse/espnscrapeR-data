@@ -20,7 +20,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: |
+          packages: |
             jthomasmock/espnscrapeR
             nflverse/nflverse-data
             nflverse/nflreadr
