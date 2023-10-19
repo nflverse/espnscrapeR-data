@@ -1290,7 +1290,7 @@ season,season_type,game_week,team_abb,player_id,name_short,rank,qbr_total,pts_ad
 2023,Regular,Season Total,TB,3052587,B. Mayfield,8,62.9,8.3,197,24,21.4,2,0,0.6,64.4,-1.5,Baker,Mayfield,Baker Mayfield,https://a.espncdn.com/i/headshots/nfl/players/full/3052587.png,Buccaneers,TRUE
 2023,Regular,Season Total,LAR,12483,M. Stafford,9.5,59.9,7.9,261,28.6,28.1,0.4,0,0,60.5,-6.9,Matthew,Stafford,Matthew Stafford,https://a.espncdn.com/i/headshots/nfl/players/full/12483.png,Rams,TRUE
 2023,Regular,Season Total,PHI,4040715,J. Hurts,9.5,59.9,9.7,307,35.5,23.3,11.8,0,0.5,61,-5.2,Jalen,Hurts,Jalen Hurts,https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png,Eagles,TRUE
-2023,Regular,Season Total,SEA,15864,G. Smith,11,59.2,4.8,198,22,21.8,0.6,0,-0.4,58.6,-4,Geno,Smith,Geno Smith,https://a.espncdn.com/i/headshots/nfl/players/full/15864.png,Seahawks,TRUE
+2023,Regular,Season Total,SEA,15864,G. Smith,11,59.2,4.9,198,22,21.9,0.6,0,-0.4,58.6,-4,Geno,Smith,Geno Smith,https://a.espncdn.com/i/headshots/nfl/players/full/15864.png,Seahawks,TRUE
 2023,Regular,Season Total,MIN,14880,K. Cousins,12,56.8,5,278,28.6,26.3,-0.8,0,3.2,56.4,-7.1,Kirk,Cousins,Kirk Cousins,https://a.espncdn.com/i/headshots/nfl/players/full/14880.png,Vikings,TRUE
 2023,Regular,Season Total,BAL,3916387,L. Jackson,13,56.3,3.4,260,25.7,17.9,7.2,0,0.5,54.6,-5.8,Lamar,Jackson,Lamar Jackson,https://a.espncdn.com/i/headshots/nfl/players/full/3916387.png,Ravens,TRUE
 2023,Regular,Season Total,HOU,4432577,C.J. Stroud,14,55.5,1.1,259,20.9,20.6,-0.3,0,0.6,51.5,-6.5,C.J.,Stroud,C.J. Stroud,https://a.espncdn.com/i/headshots/nfl/players/full/4432577.png,Texans,TRUE
@@ -1309,7 +1309,7 @@ season,season_type,game_week,team_abb,player_id,name_short,rank,qbr_total,pts_ad
 2023,Regular,Season Total,DEN,14881,R. Wilson,27.5,39.8,-5.8,237,13.5,7.7,4.6,0,1.1,41.5,-7.2,Russell,Wilson,Russell Wilson,https://a.espncdn.com/i/headshots/nfl/players/full/14881.png,Broncos,TRUE
 2023,Regular,Season Total,NYG,3917792,D. Jones,27.5,39.8,-6.4,227,11.1,2.8,8.1,0,0.2,40.2,-8.7,Daniel,Jones,Daniel Jones,https://a.espncdn.com/i/headshots/nfl/players/full/3917792.png,Giants,TRUE
 2023,Regular,Season Total,NYJ,4361259,Z. Wilson,29,37.4,-8.3,233,12.1,8.1,2.9,0,1.1,37.7,-8.5,Zach,Wilson,Zach Wilson,https://a.espncdn.com/i/headshots/nfl/players/full/4361259.png,Jets,TRUE
-2023,Regular,Season Total,NE,4241464,M. Jones,30,36.8,-8.1,244,13,11.4,1,0,0.5,38.5,-4.7,Mac,Jones,Mac Jones,https://a.espncdn.com/i/headshots/nfl/players/full/4241464.png,Patriots,TRUE
+2023,Regular,Season Total,NE,4241464,M. Jones,30,36.8,-8.1,244,13,11.5,1,0,0.5,38.5,-4.7,Mac,Jones,Mac Jones,https://a.espncdn.com/i/headshots/nfl/players/full/4241464.png,Patriots,TRUE
 2023,Regular,Season Total,TEN,14876,R. Tannehill,31,34.3,-13.2,210,5.5,4.9,-1.1,0,1.7,29.1,-9.3,Ryan,Tannehill,Ryan Tannehill,https://a.espncdn.com/i/headshots/nfl/players/full/14876.png,Titans,TRUE
 2023,Regular,Season Total,PIT,4240703,K. Pickett,32,33.5,-12.5,189,4.2,1.4,1.7,0,1,28.2,-6.7,Kenny,Pickett,Kenny Pickett,https://a.espncdn.com/i/headshots/nfl/players/full/4240703.png,Steelers,TRUE
 2023,Regular,Season Total,CAR,4685720,B. Young,33,33.1,-9.6,223,8.7,4.6,2.9,0,1.2,35.2,-6.9,Bryce,Young,Bryce Young,https://a.espncdn.com/i/headshots/nfl/players/full/4685720.png,Panthers,TRUE
