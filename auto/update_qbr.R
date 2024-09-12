@@ -1,9 +1,3 @@
-# piggyback::pb_release_create(
-#   repo = "nflverse/espnscrapeR-data",
-#   tag = "raw_qbr",
-#   body = "ESPN QBR Data by week and season"
-# )
-
 if(Sys.getenv("NFLVERSE_REBUILD", "false") == "true"){
   seasons_to_scrape <- 2006:nflreadr::most_recent_season()
 } else {
@@ -124,14 +118,3 @@ nflversedata::nflverse_save(
   nflverse_type = "ESPN QBR",
   release_tag = "espn_data"
 )
-
-
-# Save to git history for compatibility in 2023 ---------------------------
-# DELETE THIS AFTER THE 2023 SEASON!
-
-saveRDS(qbr_combined_season_level, "data/qbr-nfl-season.rds")
-readr::write_csv(qbr_combined_season_level, "data/qbr-nfl-season.csv")
-
-saveRDS(qbr_combined_week_level, "data/qbr-nfl-weekly.rds")
-readr::write_csv(qbr_combined_week_level, "data/qbr-nfl-weekly.csv")
-
