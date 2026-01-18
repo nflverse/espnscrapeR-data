@@ -28,6 +28,7 @@ jobs:
             purrr
             tidyr
             tibble
+            qsbase/qs
 
       - name: Update QBR
         run: Rscript -e 'source("auto/update_qbr.R")'
